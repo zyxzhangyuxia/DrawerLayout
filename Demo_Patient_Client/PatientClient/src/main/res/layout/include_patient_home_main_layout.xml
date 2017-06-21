@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_home_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_person_center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="展开侧滑栏"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="This is main page!"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</FrameLayout>
