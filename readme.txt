@@ -1,7 +1,12 @@
-ÆäÊµDrawerlayoutÊµÏÖ²à»¬Ğ§¹ûµÄ´úÂëºÜ¼òµ¥¡£
-µÚ1²½£ºÔÚxml²¼¾ÖµÄ¸ú²¼¾ÖÖĞ£¬Ê¹ÓÃandroid.support.v4.widget.DrawerLayout¿Ø¼ş
-µÚ2²½£º±ØĞëÓĞÁ½¸ölayout£¬Ò»¸öÓÃÓÚÄ¬ÈÏµÄ²¼¾Ö£¬Ò»¸öÓÃÓÚ²à²à»¬
-µÚ3²½£ºÓÃÓÚ²à»¬µÄLayout£¬¼ÓÈëandroid:layout_gravity="start|end"ÊôĞÔ
-µÚ4²½£ºActivityÖĞ´ò¿ª»òÕßÒş²Ø²à»¬²Ëµ¥£º
-      drawerLayout.openDrawer(GravityCompat.START);
-	  drawerLayout.closeDrawer(Gravity.LEFT);
+ä½¿ç”¨ Drawerlayoutå®ç°ä¾§æ»‘æ•ˆæœçš„ä»£ç å¾ˆç®€å•ã€‚
+ç¬¬1æ­¥ï¼šåœ¨xmlå¸ƒå±€çš„å¸ƒå±€ä¸­ï¼Œä½¿ç”¨android.support.v4.widget.DrawerLayoutæ§ä»¶ä½œä¸ºä¸€ä¸ªxmlæ–‡ä»¶çš„æ ¹èŠ‚ç‚¹
+ç¬¬2æ­¥ï¼šå¿…é¡»æœ‰ä¸¤ä¸ªlayoutï¼Œä¸€ä¸ªç”¨äºé»˜è®¤çš„å¸ƒå±€ï¼Œä¸€ä¸ªç”¨äºä¾§ä¾§æ»‘
+ç¬¬3æ­¥ï¼šç”¨äºä¾§æ»‘çš„Layoutï¼ŒåŠ å…¥android:layout_gravity="start|end"å±æ€§ï¼ˆä»å·¦ä¾§/å³ä¾§è¿›å…¥ï¼Œé»˜è®¤è¦†ç›–åœ¨ä¸»é¡µé¢çš„ä¸Šé¢ï¼‰
+ç¬¬4æ­¥ï¼šActivityä¸­æ‰“å¼€æˆ–è€…éšè—ä¾§æ»‘èœå•ï¼š
+       drawerLayout.openDrawer(GravityCompat.START);
+       drawerLayout.closeDrawer(Gravity.LEFT);
+ Â  Â  Â  
+é¡¹ç›®ä¸­è¿˜ä½¿ç”¨åˆ°çš„  Butterknife æ³¨è§£çš„æ–¹æ³•ã€‚åœ¨ButtonKnifeçš„æœ€æ–°åº“ä¸­ï¼Œæ³¨è§£çš„æ–¹å¼ä»
+     @Inject(id)
+æ¢æˆäº†
+ Â  Â  @Bind(id)
